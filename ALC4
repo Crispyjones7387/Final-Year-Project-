@@ -1,0 +1,83 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int i, n = 0, j = 0 ;
+	char a[100];
+	cout << "enter a string" << endl;
+	cin >> a;
+	cout << endl << j;
+	for (i = 0; a[i] != '\0'; i++)
+	{
+		if (j == 0)
+		{
+			if (a[i] == 1)
+			{
+				j = 1;
+				cout << j;
+			}
+			else
+			{
+				j = 3;
+				cout << j;
+			}
+         }
+		else if (j == 1)
+		{
+			if (a[i] == 1)
+			{
+				j = 2;
+				cout << j;
+			}
+			else
+			{
+				cout << "Invalid";
+		
+				
+			}
+		}
+		else if (j == 2)
+		{
+			if (a[i] == 1)
+			{
+				j = 1;
+				cout << j;
+			}
+			else 
+			{
+				j = 3;
+				cout << j;
+				
+			}
+		}
+		else if (j == 4)
+		{
+			if (a[i] == 1)
+			{
+				j = 1;
+				cout << j;
+			}
+			else
+			{
+				j = 3;
+				cout << j;
+				
+			}
+		}
+
+	}
+
+	if (j== 3)
+	{
+		cout << "\nthe string is valid:" << a << endl;
+	}
+	else
+	{
+		cout << "\ninvalid string";
+	}
+
+	_getch();
+	return 0;
+
+}
