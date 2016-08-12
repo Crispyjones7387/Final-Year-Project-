@@ -5,7 +5,7 @@ int main()
 {
 	int i, n = 0, j = 0 ;
 	char a[100];
-	cout << "enter a string" << endl;
+	cout << "enter a string of 0's and 1's:" << endl;
 	cin >> a;
 	cout << endl << j;
 	for (i = 0; a[i] != '\0'; i++)
@@ -33,9 +33,7 @@ int main()
 			else
 			{
 				cout << "Invalid";
-		
-				
-			}
+		}
 		}
 		else if (j == 2)
 		{
@@ -48,7 +46,15 @@ int main()
 			{
 				j = 3;
 				cout << j;
-				
+				n = i;
+				if (a[++n] = 0)
+				{
+					j == 4;
+		}
+				else {
+					cout << "invalid";
+					break;
+				}
 			}
 		}
 		else if (j == 4)
