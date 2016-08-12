@@ -7,15 +7,16 @@ int main()
 	char a[100];
 	cout << "enter a string of 0's and 1's:" << endl;
 	cin >> a;
-	cout << endl << j;
 	for (i = 0; a[i] != '\0'; i++)
 	{
 		if (j == 0)
 		{
+
 			if (a[i] == 1)
 			{
 				j = 1;
 				cout << j;
+
 			}
 			else
 			{
@@ -47,9 +48,9 @@ int main()
 				j = 3;
 				cout << j;
 				n = i;
-				if (a[++n] = 0)
+				if (a[++n] == 0)
 				{
-					j == 4;
+					j = 4;
 		}
 				else {
 					cout << "invalid";
